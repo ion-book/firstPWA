@@ -2,14 +2,16 @@
   "name": "firstpwa",
   "version": "1.0.0",
   "description": "",
-  "main": "js/app.js",
+  "private": true,
   "dependencies": {
     "lodash": "^4.17.10",
     "onsenui": "^2.9.2"
   },
   "devDependencies": {
+    "@types/node": "^10.0.8",
     "awesome-typescript-loader": "^5.0.0",
     "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
   },

@@ -1,10 +1,11 @@
+const path = require('path');
 module.exports = {
     entry: {
         main: './src/main.ts'
     },
     output: {
-        path: './dist',
-        filename: '[name].bundle.js'
+      path: path.resolve(__dirname, 'dist'),
+      filename: 'dist.bundle.js'
     },
     // Currently we need to add '.ts' to the resolve.extensions array.
     resolve: {
@@ -16,9 +17,9 @@ module.exports = {
    
     // Add the loader for .ts files.
     module: {
-      loaders: [
+      rules: [
         {
-          test: /\.ts$/,
+          test: /\.tsx?$/,
           loader: 'awesome-typescript-loader'
         }
       ]

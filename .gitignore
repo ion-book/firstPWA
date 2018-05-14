@@ -3,6 +3,7 @@ npm-debug.log*
 node_modules/
 tmp/
 temp/
+dist/
 
 # Trash data
 $RECYCLE.BIN/
