@@ -1,0 +1,10 @@
+# NPM (Node Package Manager) files
+npm-debug.log*
+node_modules/
+tmp/
+temp/
+
+# Trash data
+$RECYCLE.BIN/
+.DS_Store
+Thumbs.db
